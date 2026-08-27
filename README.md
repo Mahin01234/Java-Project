@@ -1,320 +1,564 @@
-<!-- PROJECT SHIELDS -->
+📚🎮 Java Projects Collection
+
 <div align="center">
 
-[![Java Version](https://img.shields.io/badge/Java-8%2B-blue.svg)](https://www.java.com/)
+A collection of Java projects including a Library Management System and several console-based games. These projects demonstrate important Java concepts such as OOP, Java Swing, JDBC, database operations, random number generation, arrays, loops, conditional logic, and basic AI.
+
+
 
 </div>
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <h1>🎮 Java Console Games Collection</h1>
-  <p>
-    A collection of classic console-based games written in Java. Perfect for beginners looking to understand core Java concepts like random number generation, user input handling, conditional logic, loops, array manipulation, and basic AI.
-    <br />
-    <a href="#-games-included"><strong>Explore the games »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/Mahin01234/Java-Project">View Repository</a>
-    ·
-    <a href="https://github.com/Mahin01234/Java-Project/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Mahin01234/Java-Project/issues">Request Feature</a>
-  </p>
-</div>
+📋 Table of Contents
 
----
+📌 Project Overview
 
-## 📋 Table of Contents
+📚 Library Management System
 
-- [📌 Project Overview](#-project-overview)
-- [🎲 Games Included](#-games-included)
-  - [🔢 Number Guessing Game](#-number-guessing-game)
-  - [⭕ Tic-Tac-Toe (Single Player)](#-tic-tac-toe-single-player)
-  - [🎲 Random Number Example](#-random-number-example)
-- [📂 Project Structure](#-project-structure)
-- [🚀 How to Run](#-how-to-run)
-- [🧠 Skills You'll Learn](#-skills-youll-learn)
-- [🔮 Future Improvements](#-future-improvements)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-- [📧 Contact](#-contact)
+🎮 Java Console Games
 
----
+✨ Features
 
-## 📌 Project Overview
+📂 Project Structure
 
-This repository contains three independent Java programs demonstrating fundamental programming concepts through interactive games. Each program runs entirely in the console/terminal and requires no external libraries.
+🗄️ Database Schema
 
-| Concept | Applied In |
-|---------|-------------|
-| Random Number Generation | All three programs |
-| User Input Handling (`Scanner`) | All three programs |
-| Loops (`for`, `while`, `do-while`) | All three programs |
-| Conditional Logic (`if-else`) | All three programs |
-| 2D Arrays | Tic-Tac-Toe |
-| Basic AI (Win/Block Logic) | Tic-Tac-Toe |
-| Score Tracking Across Rounds | Tic-Tac-Toe |
+🛠️ Technology Stack
 
----
+🚀 How to Run
 
-## 🎲 Games Included
+🧠 Skills You Will Learn
 
-### 🔢 Number Guessing Game
+🔮 Future Improvements
 
-**File:** `NumberGuessingGame.java`
+🤝 Contributing
 
-A classic "guess the number" game where the computer picks a random number and you have 5 attempts to find it.
+📄 License
 
-**Features:**
-- Random number between 1 and 100
-- 5 attempts to guess correctly
-- "Too high" or "Too low" hints after each guess
-- Reveals the answer if you fail
+📧 Contact
 
-**Sample Gameplay:**
+📌 Project Overview
 
----
+This repository contains multiple Java projects designed for learning and practicing core Java programming concepts.
 
-### ⭕ Tic-Tac-Toe (Single Player)
+Project
 
-**File:** `TicTacToeSinglePlayer.java`
+Description
 
-Play classic Tic-Tac-Toe against an AI opponent. You are `X`, computer is `Y`.
+📚 Library Management System
 
-**Features:**
-- Visual 3×3 board with numbered positions (1–9)
-- Smart AI with 3 decision levels:
-  1. **Win if possible** – takes a winning move
-  2. **Block player's win** – blocks your winning move
-  3. **Random move** – picks any available cell
-- Persistent scoreboard across multiple rounds
-- Input validation for occupied cells and invalid numbers
+A Java Swing desktop application for managing library books
 
-**Board Layout:**
-🎯 Welcome to the Number Guessing Game!
-I have chosen a number between 1 and 100.
-You have 5 attempts to guess it.
+🔢 Number Guessing Game
 
-Attempt 1: 50
-📉 Too low!
+Guess a randomly generated number within limited attempts
 
-Attempt 2: 75
-📈 Too high!
+⭕ Tic-Tac-Toe
 
-Attempt 3: 62
-📉 Too low!
+Play Tic-Tac-Toe against a simple AI
 
-Attempt 4: 68
-📈 Too high!
+🎲 Random Number Example
 
-Attempt 5: 65
-❌ Out of attempts! The number was 66.
+A simple Java program demonstrating random number generation
 
-text
+These projects demonstrate both Graphical User Interface (GUI) development and Console-based programming.
 
----
+📚 Library Management System
 
-### ⭕ Tic-Tac-Toe (Single Player)
+A comprehensive desktop application built with Java Swing for managing library book records.
 
-**File:** `TicTacToeSinglePlayer.java`
+🚀 Features
 
-Play classic Tic-Tac-Toe against an AI opponent. You are `X`, computer is `Y`.
+🔐 Secure Login
 
-**Features:**
-- Visual 3×3 board with numbered positions (1–9)
-- Smart AI with 3 decision levels:
-  1. **Win if possible** – takes a winning move
-  2. **Block player's win** – blocks your winning move
-  3. **Random move** – picks any available cell
-- Persistent scoreboard across multiple rounds
-- Input validation for occupied cells and invalid numbers
+➕ Add Books
 
-**Board Layout:**
+👁️ View All Books
+
+✏️ Update Books
+
+🗑️ Remove Books
+
+🔎 Search Books
+
+🚪 Logout
+
+📊 Table-based book display
+
+🗄️ Database connectivity using JDBC
+
+🔐 Default Login
+
+ID: admin
+Password: admin123
+
+📖 Book Information
+
+Each book contains:
+
+Book ID
+
+Title
+
+Genre
+
+Author
+
+Publisher
+
+Year of Publication
+
+Duplicate Book IDs are rejected.
+
+🖼️ Screenshots & Workflow
+
+All screenshots are stored in the screenshots/ folder.
+
+Step
+
+Screenshot
+
+Description
+
+1
+
+1.png
+
+Login Window
+
+2
+
+2.png
+
+Add Book
+
+3
+
+3.png
+
+View Books
+
+4
+
+4.png
+
+Update Book
+
+5
+
+5.png
+
+Updated Book Record
+
+6
+
+6.png
+
+Remove Book
+
+7
+
+7.png
+
+Book Removed Successfully
+
+🎮 Java Console Games
+
+This repository also contains simple console-based Java programs for practicing fundamental programming concepts.
+
+🔢 Number Guessing Game
+
+File: NumberGuessingGame.java
+
+The computer chooses a random number between 1 and 100. The player has 5 attempts to guess the correct number.
+
+Features
+
+Random number generation
+
+5 attempts
+
+Too high / Too low hints
+
+Displays the correct answer if the player loses
+
+⭕ Tic-Tac-Toe (Single Player)
+
+File: TicTacToeSinglePlayer.java
+
+Play Tic-Tac-Toe against a simple computer AI.
+
+Player: X
+
+Computer: Y
+
+Features
+
+3×3 game board
+
+Player vs Computer
+
+Win detection
+
+Computer win logic
+
+Block player's winning move
+
+Random available move
+
+Score tracking
+
+Multiple rounds
+
+Input validation
+
+AI Decision Logic
+
+Win if possible
+
+Block the player's winning move
+
+Choose a random available position
+
+Board Layout
+
 1 | 2 | 3
 ---+---+---
 4 | 5 | 6
 ---+---+---
 7 | 8 | 9
 
-text
+🎲 Random Number Example
 
-**Sample Gameplay:**
-🎮 Welcome to Tic-Tac-Toe!
-You are X, Computer is Y.
+File: Random_Number.java
 
-1 | 2 | 3
----+---+---
-4 | 5 | 6
----+---+---
-7 | 8 | 9
+A simple program demonstrating how to generate and guess a random number.
 
-Your turn! Enter position (1-9): 5
+Features
 
-1 | 2 | 3
----+---+---
-4 | X | 6
----+---+---
-7 | 8 | 9
+Generates a random number between 1 and 100
 
-Computer chose position 1
+Takes user input using Scanner
 
-Y | 2 | 3
----+---+---
-4 | X | 6
----+---+---
-7 | 8 | 9
+Provides Too Large / Too Small feedback
 
-...
+Continues until the correct answer is guessed
 
-🏆 Player wins!
-Score - Player: 1 | Computer: 0
-Play again? (y/n): n
-Thanks for playing!
+✨ Features
 
-text
+📚 Library Management System
 
----
+Login System
 
-### 🎲 Random Number Example
+Add Books
 
-**File:** `Random_Number.java`
+View Books
 
-A minimal demo showing how to generate random numbers in Java. Useful for understanding the foundation used in the guessing game.
+Update Books
 
-**How it works:**
-- Generates a random number between 1 and 100
-- Takes user guesses in a loop
-- Provides "too large" / "too small" feedback
-- Runs until the correct number is guessed
+Delete Books
 
-**Sample Code:**
+Search Books
 
-java
-import java.util.Random;
-import java.util.Scanner;
+Logout
 
-public class Random_Number {
-    public static void main(String[] args) {
-        Random random = new Random();
-        Scanner scanner = new Scanner(System.in);
-        
-        int target = random.nextInt(100) + 1;
-        int guess;
-        int attempts = 0;
-        
-        System.out.println("🎯 Guess the number between 1 and 100!");
-        
-        do {
-            System.out.print("Enter your guess: ");
-            guess = scanner.nextInt();
-            attempts++;
-            
-            if (guess > target) {
-                System.out.println("📉 Too large!");
-            } else if (guess < target) {
-                System.out.println("📈 Too small!");
-            }
-        } while (guess != target);
-        
-        System.out.println("🎉 Correct! You guessed it in " + attempts + " attempts.");
-        scanner.close();
-    }
-}
+Database CRUD Operations
 
----
-### 📂 Project Structure:
-text
+Java Swing GUI
+
+🎮 Console Games
+
+Number Guessing Game
+
+Tic-Tac-Toe with AI
+
+Random Number Program
+
+Basic AI Logic
+
+Score Tracking
+
+Input Validation
+
+📂 Project Structure
+
 Java-Project/
-├── NumberGuessingGame.java      # Number guessing game with 5 attempts
-├── TicTacToeSinglePlayer.java   # Tic-Tac-Toe with AI opponent
-├── Random_Number.java           # Simple random number guessing demo
-└── README.md                    # Project documentation
+│
+├── LibraryManagementSystem/
+│   ├── src/
+│   │   └── libraryManagementSystem/
+│   │       ├── Main.java
+│   │       ├── Login.java
+│   │       ├── Dashboard.java
+│   │       ├── Book.java
+│   │       ├── BookDAO.java
+│   │       ├── DatabaseConnection.java
+│   │       └── resources/
+│   │           └── images/
+│   │
+│   ├── screenshots/
+│   │   ├── 1.png
+│   │   ├── 2.png
+│   │   ├── 3.png
+│   │   ├── 4.png
+│   │   ├── 5.png
+│   │   ├── 6.png
+│   │   └── 7.png
+│   │
+│   ├── lib/
+│   └── config.properties
+│
+├── NumberGuessingGame.java
+├── TicTacToeSinglePlayer.java
+├── Random_Number.java
+├── README.md
+└── LICENSE
 
----
-### 🚀 How to Run
+🗄️ Database Schema
+
+CREATE TABLE books (
+    book_id INT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    genre VARCHAR(100),
+    author VARCHAR(255),
+    publisher VARCHAR(255),
+    yop DATE
+);
+
+The Library Management System can use:
+
+MySQL
+
+SQLite
+
+Other JDBC-supported databases
+
+🛠️ Technology Stack
+
+Technology
+
+Usage
+
+Java
+
+Main Programming Language
+
+Java Swing
+
+Graphical User Interface
+
+JDBC
+
+Database Connectivity
+
+MySQL / SQLite
+
+Database
+
+Random
+
+Random Number Generation
+
+Scanner
+
+User Input
+
+Arrays
+
+Game Board Management
+
+OOP
+
+Object-Oriented Programming
+
+🚀 How to Run
+
 Prerequisites
-Java JDK 8 or higher – Download from Oracle
 
-Any text editor or IDE (VS Code, IntelliJ IDEA, Eclipse, or NetBeans)
+Java JDK 8 or higher
 
-Steps
-Clone the repository
+MySQL or SQLite for the Library Management System
 
-bash
-git clone https://github.com/Mahin01234/Java-Project.git
-cd Java-Project
-Compile the desired game
+Any Java IDE such as IntelliJ IDEA, Eclipse, NetBeans, or VS Code
 
-bash
+📚 Run the Library Management System
+
+1. Configure the Database
+
+Update your database information in:
+
+DatabaseConnection.java
+
+or:
+
+config.properties
+
+2. Create the Table
+
+Run the provided SQL query to create the books table.
+
+3. Add JDBC Driver
+
+Download the required JDBC driver and place it inside the lib/ folder.
+
+4. Compile and Run
+
+javac -cp "lib/*" src/libraryManagementSystem/*.java
+java -cp ".;lib/*" libraryManagementSystem.Main
+
+You can also open the project in your IDE and run Main.java.
+
+Note: On Linux/macOS, use : instead of ; in the classpath.
+
+🎮 Run the Console Games
+
+Number Guessing Game
+
 javac NumberGuessingGame.java
-Run the compiled class
-
-bash
 java NumberGuessingGame
-For other games:
 
-bash
+Tic-Tac-Toe
+
 javac TicTacToeSinglePlayer.java
 java TicTacToeSinglePlayer
-bash
+
+Random Number Program
+
 javac Random_Number.java
 java Random_Number
 
+🧠 Skills You Will Learn
 
----
+Core Java
 
-### 🧠 Skills You'll Learn
-By studying and modifying these programs, you will gain practical experience with:
+Variables and Data Types
 
-Random Number Generation – using java.util.Random
+Conditional Statements
 
-User Input – using java.util.Scanner
+Loops
 
-Control Flow – if-else, switch, loops
+Methods
 
-Arrays – 1D and 2D arrays for game boards
+User Input
 
-Methods – breaking down logic into reusable functions
+Object-Oriented Programming
 
-Basic AI Logic – decision-making algorithms
+Classes and Objects
 
-Score Tracking – persistent state across game rounds
+Encapsulation
 
-Input Validation – handling invalid user input gracefully
+Inheritance
 
----
+Polymorphism
 
-### 🔮 Future Improvements
-Ideas for extending this project:
+Abstraction
 
-□ Add difficulty levels to Number Guessing Game
-□ Implement two-player mode for Tic-Tac-Toe
-□ Add a graphical user interface (GUI) using Swing/JavaFX
-□ Create a menu system to select different games
-□ Add unit tests using JUnit
-□ Implement a Connect Four game
-□ Add color-coded console output using ANSI escape codes
+Java GUI
 
----
-### 🤝 Contributing
-Contributions are welcome! If you have improvements, new games, or bug fixes, please follow these steps:
+Java Swing
+
+JFrame
+
+JPanel
+
+JButton
+
+JTextField
+
+JTable
+
+Event Handling
+
+Database
+
+JDBC
+
+SQL Queries
+
+CRUD Operations
+
+Game Development Basics
+
+Random Number Generation
+
+Arrays and 2D Arrays
+
+Basic AI Logic
+
+Score Tracking
+
+Input Validation
+
+🔮 Future Improvements
+
+Add Book Issue and Return System
+
+Add User Registration
+
+Add Multiple User Roles
+
+Add Password Encryption
+
+Add Fine Calculation
+
+Add Advanced Book Search
+
+Add GUI for Console Games
+
+Add Two-Player Mode to Tic-Tac-Toe
+
+Add Difficulty Levels
+
+Add More Games
+
+Implement Connect Four
+
+Add Unit Tests with JUnit
+
+🤝 Contributing
+
+Contributions are welcome!
 
 Fork the repository.
 
-Create a new branch (git checkout -b feature/your-feature).
+Create a new branch:
 
-Make your changes and commit them (git commit -m 'Add some feature').
+git checkout -b feature/AmazingFeature
 
-Push to the branch (git push origin feature/your-feature).
+Make your changes.
 
-Open a pull request.
+Commit your changes:
 
-Please ensure your code is well-commented and follows standard Java conventions.
+git commit -m "Add some feature"
 
----
-### 📄 License
-Distributed under the MIT License. See LICENSE for more information.
+Push to GitHub:
 
----
+git push origin feature/AmazingFeature
 
+Open a Pull Request.
+
+Please ensure that your code is clean, well-commented, and follows standard Java coding conventions.
+
+📄 License
+
+This project is distributed under the MIT License.
+
+See the LICENSE file for more information.
+
+🙏 Acknowledgements
+
+Special thanks to:
+
+Oracle for Java documentation
+
+Open-source JDBC contributors
+
+Java developer community
+
+Open-source contributors
+
+📧 Contact
+
+Developer: Mahinur Rahman Mahin
+
+Project Repository:
+https://github.com/Mahin01234/Java-Project
