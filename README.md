@@ -130,7 +130,7 @@ A simple Java program demonstrating how to generate random numbers and compare u
 
 ---
 
-# 🖼️ Screenshots
+# 🖼️ Screenshots ( Library Management System Project ) 
 
 The repository includes the following screenshot files:
 
