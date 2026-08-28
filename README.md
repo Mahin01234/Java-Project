@@ -51,26 +51,26 @@ The projects cover topics such as:
 
 ---
 
-# 🎮 Projects
+## 🎮 Projects
 
-## 🔢 Number Guessing Game
+### 🔢 Number Guessing Game
 
 **File:** `NumberGuessingGame.java`
 
 A classic number guessing game where the computer generates a random number between **1 and 100**. The player must guess the correct number within a limited number of attempts.
 
-### Features
+#### Features
 
 - Random number generation
 - Number range from 1 to 100
 - Limited attempts
-- Too High and Too Low hints
+- "Too High" and "Too Low" hints
 - Success message for a correct guess
 - Displays the correct answer when all attempts are used
 
 ---
 
-## ⭕ Tic-Tac-Toe (Single Player)
+### ⭕ Tic-Tac-Toe (Single Player)
 
 **File:** `TicTacToeSinglePlayer.java`
 
@@ -81,7 +81,7 @@ A single-player Tic-Tac-Toe game where the user plays against a simple computer 
 | User | `X` |
 | Computer | `Y` |
 
-### Features
+#### Features
 
 - 3×3 game board
 - Player vs Computer gameplay
@@ -94,7 +94,7 @@ A single-player Tic-Tac-Toe game where the user plays against a simple computer 
 - Multiple rounds
 - Input validation
 
-### 🤖 AI Decision Logic
+#### 🤖 AI Decision Logic
 
 The computer follows the following priority:
 
@@ -102,7 +102,7 @@ The computer follows the following priority:
 2. **Block** – Prevent the player from winning.
 3. **Random Move** – Select an available position.
 
-### Board Layout
+#### Board Layout
 
 ```text
 1 | 2 | 3
@@ -110,253 +110,3 @@ The computer follows the following priority:
 4 | 5 | 6
 ---+---+---
 7 | 8 | 9
-```
-
----
-
-## 🎲 Random Number Example
-
-**File:** `Random_Number.java`
-
-A simple Java program demonstrating how to generate random numbers and compare user input with a target value.
-
-### Features
-
-- Generates a random number between 1 and 100
-- Accepts user input using `Scanner`
-- Provides Too Large / Too Small feedback
-- Continues until the correct number is guessed
-- Tracks the number of attempts
-
----
-
-# 🖼️ Screenshots ( Library Management System Project ) 
-
-The repository includes the following screenshot files:
-
-| Screenshot | File |
-| :--- | :--- |
-| Screenshot 1 | `1.png` |
-| Screenshot 2 | `2.png` |
-| Screenshot 3 | `3.png` |
-| Screenshot 4 | `4.png` |
-| Screenshot 5 | `5.png` |
-| Screenshot 6 | `6.png` |
-| Screenshot 7 | `7.png` |
-
----
-
-# 📂 Project Structure
-
-```text
-Java-Project/
-│
-├── 1.png
-├── 2.png
-├── 3.png
-├── 4.png
-├── 5.png
-├── 6.png
-├── 7.png
-│
-├── NumberGuessingGame.java
-├── Random_Number.java
-├── TicTacToeSinglePlayer.java
-│
-└── README.md
-```
-
----
-
-# 🛠️ Technologies & Concepts
-
-| Technology / Concept | Purpose |
-| :--- | :--- |
-| **Java** | Main programming language |
-| `java.util.Random` | Random number generation |
-| `java.util.Scanner` | User input |
-| Conditional Statements | Decision-making |
-| Loops | Repeating program operations |
-| Arrays | Data and game board management |
-| 2D Arrays | Tic-Tac-Toe board representation |
-| Methods | Organizing reusable program logic |
-| Basic AI Logic | Computer decision-making |
-
----
-
-# 🚀 Getting Started
-
-## Prerequisites
-
-Before running the projects, make sure you have:
-
-- Java JDK 8 or higher
-- A terminal or command prompt
-
-You may also use any Java IDE, such as:
-
-- IntelliJ IDEA
-- Eclipse
-- NetBeans
-- Visual Studio Code
-
----
-
-## 🔢 Run Number Guessing Game
-
-Compile:
-
-```bash
-javac NumberGuessingGame.java
-```
-
-Run:
-
-```bash
-java NumberGuessingGame
-```
-
----
-
-## ⭕ Run Tic-Tac-Toe
-
-Compile:
-
-```bash
-javac TicTacToeSinglePlayer.java
-```
-
-Run:
-
-```bash
-java TicTacToeSinglePlayer
-```
-
----
-
-## 🎲 Run Random Number Example
-
-Compile:
-
-```bash
-javac Random_Number.java
-```
-
-Run:
-
-```bash
-java Random_Number
-```
-
----
-
-# 🧠 What You Will Learn
-
-By exploring and modifying these projects, you can practice the following concepts.
-
-## Core Java
-
-- Variables and Data Types
-- Operators
-- Conditional Statements
-- Loops
-- Methods
-
-## User Input
-
-- Using `Scanner`
-- Reading keyboard input
-- Input validation
-
-## Random Number Generation
-
-- Using `java.util.Random`
-- Generating random values
-- Applying random numbers in games
-
-## Arrays
-
-- One-dimensional arrays
-- Two-dimensional arrays
-- Game board management
-
-## Game Development Fundamentals
-
-- Game loops
-- Win detection
-- Score tracking
-- Multiple rounds
-- Player versus computer gameplay
-
-## Basic AI Logic
-
-- Identifying possible winning moves
-- Blocking opponent moves
-- Selecting available positions
-
----
-
-# 🔮 Future Improvements
-
-Future improvements may include:
-
-- [ ] Add difficulty levels to the Number Guessing Game
-- [ ] Add a two-player mode to Tic-Tac-Toe
-- [ ] Improve the computer AI
-- [ ] Add a graphical user interface using Java Swing
-- [ ] Create a main menu for selecting games
-- [ ] Add additional Java games
-- [ ] Implement Connect Four
-- [ ] Implement Hangman
-- [ ] Add automated tests using JUnit
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome!
-
-1. **Fork** the repository.
-
-2. Create a new branch:
-
-```bash
-git checkout -b feature/AmazingFeature
-```
-
-3. Make your changes.
-
-4. Commit your changes:
-
-```bash
-git commit -m "Add some feature"
-```
-
-5. Push your branch:
-
-```bash
-git push origin feature/AmazingFeature
-```
-
-6. Open a **Pull Request**.
-
-Please ensure that your code is clean, properly formatted, and follows standard Java coding conventions.
-
----
-
-# 📧 Contact
-
-**Developer:** Mahinur Rahman Mahin
-
-**GitHub Repository:**  
-https://github.com/Mahin01234/Java-Project
-
----
-
-<div align="center">
-
-⭐ **If you find this project useful, consider giving it a star!**
-
-Made with ❤️ using Java 
-
-</div>
