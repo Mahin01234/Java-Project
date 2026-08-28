@@ -15,7 +15,6 @@ A collection of beginner-friendly Java console applications designed to demonstr
   - [🔢 Number Guessing Game](#-number-guessing-game)
   - [⭕ Tic-Tac-Toe](#-tic-tac-toe-single-player)
   - [🎲 Random Number Example](#-random-number-example)
-- [🖼️ Screenshots](#️-screenshots)
 - [📂 Project Structure](#-project-structure)
 - [🛠️ Technologies & Concepts](#️-technologies--concepts)
 - [🚀 Getting Started](#-getting-started)
